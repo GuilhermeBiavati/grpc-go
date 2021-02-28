@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  go:
+    image: go
+    volumes:
+      - ./:/app
